@@ -77,6 +77,8 @@ airs_plot_data = airs_plot_data[airs_plot_data.applymap(
 ## Why the AIRS values are lower than the land and sea surface data
 According to the NASA website, AIRS (Atmospheric Infrared Sounder) is a satellite based measure that gathers *infrared energy emitted from Earth's surface and atmosphere* globally, every day. My assumption based on this detail is that the AIRS value is lower because it does not account for the amount of energy that is absorbed by the atmosphere. According to NASA, "the conversion of measurements of instruments carried on satellites to temperatures is difficult and made more complex due to changing surface conditions and the presence of clouds". In other words, the total outgoing infared radiation (after absorbtion by the clouds in the atmosphere) would be a lower value compared to the energy emitted by the surface (According to the Earth's Energy Budget image from Lecture 1). These factors impact the AIRS values and could explain why the anomaly values in the AIRS data are lower than the land and sea surface data which uses temperature reports from weather stations and water temperature reports from ships and buoys.
 
+![EarthEnergyBudget](Images/EarthEnergyBudget.jpeg)
+
 # 2. Climate stripes
 
 “Climate stripes” or “warming stripes” have become an international artistic sign of climate concern: https://en.wikipedia.org/wiki/Warming_stripes . 
