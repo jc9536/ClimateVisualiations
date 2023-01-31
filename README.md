@@ -54,8 +54,8 @@ def isnumber(x):
 
 ```python 
 # Instantiate variables with .csv paths
-combined_path = "GLB.Ts+dSST.csv"
-airs_path = "AIRS.csv"
+combined_path = "data/GLB.Ts+dSST.csv"
+airs_path = "data/AIRS.csv"
 
 # Import .csv as pandas DataFrame
 combined_df = pd.read_csv(combined_path, header=1)
@@ -71,4 +71,6 @@ combined_plot_data = combined_plot_data[combined_plot_data.applymap(
 airs_plot_data = airs_plot_data[airs_plot_data.applymap(
     isnumber)].astype({'Year': 'int32', 'J-D': 'float64'})
 ```
+
+![alt text](Images/AnnualMeanTempAnomaly.png)
 
