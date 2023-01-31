@@ -160,5 +160,7 @@ print("The average amount of carbon (ppm) in the atmosphere for the year I was b
 ```
 
 The average amount of carbon (ppm) in the atmosphere for the year I was born (2001) is: 370.57 ppm
+
 The average amount of carbon (ppm) in the atmosphere for the year you were born (1989) is: 352.79 ppm
+
 The average amount of carbon (ppm) in the atmosphere for the year I was born (2001) is greater than the average amount of carbon (ppm) in the atmosphere for the year you were born in (1989).
