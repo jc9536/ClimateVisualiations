@@ -112,7 +112,7 @@ ax.add_collection(col)
 ax.set_ylim(0, 1)
 ax.set_xlim(1880, 2023)
 ```
-![heatingStripesSeaborn](Images/HeatStripesSeaborn.png)
+![heatingStripesSeaborn](Images/heating_stripes_seaborn.png)
 
 ```python
 climate_stripes = combined_plot_data.ext.heat_stripes('J-D', clim=0.7, reference='58:59', cmap="coolwarm")
